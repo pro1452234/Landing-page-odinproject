@@ -1,6 +1,60 @@
-.main {
+body {
     height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raedex Pro',sans-serif;
+}
+button {
+    font-size: 18px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 0.5em;
+    border: none;
+    outline :none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.main {
     display: flex;
     flex-direction: column;
     
 }
+.heading {
+    background-color:  	#B8B8B8;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.title {
+    size: 50px;
+    
+}
+.search {
+    flex: auto;
+    width: max-content;
+    padding: 14px;
+    border-radius: 28px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 45px;
+    margin: 0.25em 1em;
+}
+.search-bar {
+    font-size: 16px;
+    font-family: 'Raedex Pro',sans-serif;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+::placeholder {
+    color: white;
+}
+
