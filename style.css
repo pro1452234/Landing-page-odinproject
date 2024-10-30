@@ -28,10 +28,20 @@ button {
     display: flex;
     align-items: center;
     height: 75px;
+    justify-content: space-between;
+}
+.other {
+    display: flex;
+    align-items: center;
+    flex: auto;
 }
 .title {
-    size: 50px;
-    
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    height: 100%;
+    width: 150px;
+    font-size: 30px;
 }
 .search {
     flex: auto;
@@ -56,5 +66,9 @@ button {
 }
 ::placeholder {
     color: white;
+}
+.content {
+    display: flex;
+    align-items: center;
 }
 
